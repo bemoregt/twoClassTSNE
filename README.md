@@ -1,5 +1,5 @@
 # twoClassTSNE
-Pre-Trained Imagenet based two class 2D T-SNE plot using Openfreameworks
+Pre-Trained Imagenet based two class 2D T-SNE plot using Openframeworks.
 
 ![t-sne bad-clustered example]( https://github.com/bemoregt/twoClassTSNE/blob/master/ScrShot%2011.png "t-sne plot 1")
 
