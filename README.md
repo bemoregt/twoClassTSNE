@@ -6,9 +6,9 @@ Pre-Trained Imagenet based two class 2D T-SNE plot using Openfreameworks
 ![t-sne good-clustered example]( https://github.com/bemoregt/twoClassTSNE/blob/master/ScrShot%2012.png "t-sne plot 2")
 
 Two Classes images Clustering using pre-trained Imagenet model(VGG16).
-
-Blue Box: class1 datas from good directory.
-Red Box: class2 datas from bad directory.
+- This program can used to check sanity of ground truth of directory-labeled data.
+- Blue Box: class1 datas from good directory.
+- Red Box: class2 datas from bad directory.
 
 ###How To
 1. Enter your images to good & bad folder.
