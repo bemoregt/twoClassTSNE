@@ -1,7 +1,9 @@
 # twoClassTSNE
 Pre-Trained Imagenet based two class 2D T-SNE plot using Openfreameworks
 
-![t-sne example]( https://github.com/bemoregt/twoClassTSNE/blob/master/ScrShot%2011.png "t-sne plot")
+![t-sne bad-clustered example]( https://github.com/bemoregt/twoClassTSNE/blob/master/ScrShot%2011.png "t-sne plot 1")
+
+![t-sne good-clustered example]( https://github.com/bemoregt/twoClassTSNE/blob/master/ScrShot%2012.png "t-sne plot 2")
 
 Two Classes images Clustering using pre-trained Imagenet model(VGG16)
 
