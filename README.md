@@ -13,8 +13,8 @@ Red Box: class2 datas from bad directory.
 ###How To
 1. Enter your images to good & bad folder.
 2. run Xcode program.
-3. Control the GUI screen's Scale slider for entire t-sne plot.
-3. Control the GUI screen's Size slider for each images size.
+3. Control the GUI screen's Scale slider for entire Scale of t-sne plot.
+3. Control the GUI screen's ImageSize slider for each images size.
 
 ### Dependency
 - OpenFrameworks 0.10.1
