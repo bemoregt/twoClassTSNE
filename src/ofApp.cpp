@@ -8,6 +8,8 @@ void ofApp::setup(){
     ofDirectory dir;
     
     //
+    t=0;
+    
     int nFiles = dir.listDir(ofToDataPath("good/"));
     if(nFiles) {
         for(int i=0; i<dir.size(); i++) {
@@ -15,7 +17,8 @@ void ofApp::setup(){
             string filePath = dir.getPath(i);
             images.push_back(ofImage());
             images.back().load(filePath);
-            imgType[i] = 0; // ********************
+            imgType[t] = 0; // ********************
+            t++;
         }
     }
     
@@ -27,7 +30,8 @@ void ofApp::setup(){
             string filePath = dir.getPath(i);
             images.push_back(ofImage());
             images.back().load(filePath);
-            imgType[i] = 1; // ********************
+            imgType[t] = 1; // ********************
+            t++;
         }
     }
     // setup ofxCcv
